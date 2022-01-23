@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.application1_intent">
 
-    <permission android:name="com.example.application1_intent.APPLICATION_PERMISSION"
+    <permission android:name="com.example.application1_intent.APPLICATIONPERMISSION"
         android:label="custom_permission" android:protectionLevel="normal"/>
 
     <application
@@ -15,7 +15,7 @@
         <activity
             android:name=".Application1SecondActivity"
             android:exported="true"
-            android:permission="com.example.application1_intent.APPLICATION_PERMISSION">
+            android:permission="com.example.application1_intent.APPLICATIONPERMISSION">
             <intent-filter>
                 <action android:name="com.example.application1_intent1" />
                 <category android:name="android.intent.category.DEFAULT" />
